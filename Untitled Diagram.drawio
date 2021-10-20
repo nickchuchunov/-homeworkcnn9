@@ -1,1 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2021-10-20T15:46:50.589Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.50" etag="_hpndaaZQnpzzxUqF4pw" version="15.5.6" type="github"><diagram id="eF-Lmgn3sDp2-ddGPDrK" name="Page-1">dZHBEoIgEIafhrvClHY2q0snD50Z2YQZdB2k0Xr6dICMsU4s3/4/y+4SVrTT2fBeXlGAJjQRE2FHQmmasHw+FvJ0ZJcdHGiMEl60gkq9IDg9fSgBQyS0iNqqPoY1dh3UNmLcGBxj2R11XLXnDWxAVXO9pTclrHQ0p9nKL6AaGSqne99fy4PYdzJILnD8QqwkrDCI1kXtVIBehhfm4nynP9nPxwx09odhDta350u0IVa+AQ==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-10-20T16:18:23.446Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36 Edg/94.0.992.50" etag="ldKbXZpHjpMk_XnsKh7c" version="15.5.6" type="github">
+  <diagram id="eF-Lmgn3sDp2-ddGPDrK" name="Page-1">
+    <mxGraphModel dx="2557" dy="965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LBcDXKlsK034aVvfR6W_-1" value="Цех_сортировки_бытововых_отходов" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="10" width="850" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LBcDXKlsK034aVvfR6W_-2" value="Партия бытовых отходов" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="100" width="90" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="LBcDXKlsK034aVvfR6W_-3" value="Сортировочная линия" style="shape=rhombus;double=1;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="80" y="115" width="200" height="90" as="geometry" />
+        </mxCell>
+        <object label="Оператор" id="LBcDXKlsK034aVvfR6W_-6">
+          <mxCell style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+            <mxGeometry x="170" y="300" width="40" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="LBcDXKlsK034aVvfR6W_-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="LBcDXKlsK034aVvfR6W_-6" target="LBcDXKlsK034aVvfR6W_-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="330" />
+              <mxPoint x="200" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LBcDXKlsK034aVvfR6W_-11" value="Управление режимом работы" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="LBcDXKlsK034aVvfR6W_-6" target="LBcDXKlsK034aVvfR6W_-3">
+          <mxGeometry x="0.1106" width="80" relative="1" as="geometry">
+            <mxPoint x="189.5" y="290" as="sourcePoint" />
+            <mxPoint x="189.5" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="180" y="280" />
+              <mxPoint x="180" y="230" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LBcDXKlsK034aVvfR6W_-12" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="LBcDXKlsK034aVvfR6W_-13" target="LBcDXKlsK034aVvfR6W_-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="-180" y="260" as="sourcePoint" />
+            <mxPoint x="-70" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <object label="Контролер" id="LBcDXKlsK034aVvfR6W_-13">
+          <mxCell style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+            <mxGeometry x="-35" y="300" width="40" height="60" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="LBcDXKlsK034aVvfR6W_-15" value="" style="endArrow=block;startArrow=block;endFill=1;startFill=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="10" y="320" as="sourcePoint" />
+            <mxPoint x="170" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
